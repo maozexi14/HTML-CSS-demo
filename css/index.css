@@ -1,0 +1,262 @@
+body,
+a {
+    font-family: microsoft yahei;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+.banxin {
+    width: 1406px;
+    margin: 0 auto;
+}
+
+
+/*左浮动 右浮动*/
+
+.fill {
+    float: left;
+}
+
+.flr {
+    float: right;
+}
+
+
+/*header区块----begin*/
+
+header {
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.header-nav {
+    padding-left: 390px;
+}
+
+.header-nav a {
+    float: left;
+    padding: 0 10px;
+}
+
+.header-nav a.active {
+    background-color: #008fd5;
+    color: #fff;
+}
+
+.header-nav a:hover {
+    background-color: #008fd5;
+    color: #fff;
+}
+
+.header-icon .iconfont {
+    font-size: 30px;
+    padding: 0 4px;
+    margin-left: 28px;
+    line-height: 35px;
+    position: relative;
+    top: 4px;
+}
+
+.header-icon .iconfont.icon-diqiu {
+    font-size: 25px;
+    padding-right: 6px;
+}
+
+.header-icon .iconfont.icon-weibo {
+    color: salmon;
+}
+
+.header-icon .iconfont.icon-weixin-copy {
+    color: greenyellow;
+}
+
+.header-icon .iconfont.icon-ins {
+    color: purple;
+}
+
+.header-icon a {
+    position: relative;
+}
+
+.header-icon a img {
+    position: absolute;
+    left: -37px;
+    top: 44px;
+    display: none;
+}
+
+.header-icon a:nth-last-of-type(2):hover img {
+    display: block;
+}
+
+
+/*header区块----end*/
+
+
+/*nav区块开始*/
+
+.nav {
+    height: 99px;
+    line-height: 99px;
+    position: relative;
+}
+
+h1 {
+    margin-top: 16px;
+    float: left;
+}
+
+.icon-sousuo {
+    font-size: 30px;
+}
+
+.nav ul {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav ul li {
+    padding-right: 66px;
+}
+
+.nav ul li a {
+    font-size: 15px;
+}
+
+.nav ul li:hover a {
+    color: #008fd5;
+}
+
+
+/*nav区块*/
+
+
+/*banner区块 begin*/
+
+.banner img {
+    display: block;
+}
+
+
+/*banner区块 end*/
+
+
+/*news区块begin*/
+
+.news {
+    height: 75px;
+    line-height: 75px;
+    background-color: #018ed3;
+    color: #fff;
+}
+
+.news .news-l {
+    font-size: 16px;
+}
+
+.news .news-r .iconfont {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.news-l::before {
+    content: " 新闻动态";
+    width: 116px;
+    height: 34px;
+    line-height: 34px;
+    color: #008fd5;
+    float: left;
+    margin-top: 19px;
+    margin-right: 57px;
+    font-size: 18px;
+    text-align: center;
+    background: url('../images/news_information.png') no-repeat;
+}
+
+
+/*news区块end*/
+
+
+/*show区块begin*/
+
+.show {
+    height: 485px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    /*两个盒子之间的距离用空格隔开*/
+}
+
+.show div {
+    height: 485px;
+    width: 455px;
+    background-color: #eeeeee;
+}
+
+.show div h2 {
+    margin-top: 21px;
+    font-size: 19px;
+    margin-left: 38px;
+    margin-right: 38px;
+    line-height: 25px;
+    color: #009adc;
+}
+
+.show div p {
+    margin-left: 38px;
+    margin-right: 38px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+/*弹性布局     */
+
+
+/*show区块end*/
+
+.video {
+    margin-top: 10px;
+}
+
+
+/*list开始*/
+
+.list {
+    height: 420px;
+    padding-left: 38px;
+    box-sizing: border-box;
+    padding-top: 84px;
+}
+
+.list dl {
+    width: 170px;
+    float: left;
+}
+
+.list dl dt {
+    font-size: 17px;
+    color: #008fd5;
+    margin-bottom: 16px;
+}
+
+.list dl dd {
+    height: 30px;
+    font-size: 16px;
+}
+
+.list dl:nth-last-of-type(1) {
+    width: auto;
+}
+
+
+/*list结束*/
+
+footer {
+    border-top: 1px solid #000;
+    height: 67px;
+}
